@@ -132,9 +132,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox_Email);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "QuenMatKhau";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "QuenMatKhau";
+            this.Text = "Gym Management";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
