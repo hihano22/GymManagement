@@ -183,6 +183,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "DangKy";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "DangKy";
             this.Load += new System.EventHandler(this.DangKy_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

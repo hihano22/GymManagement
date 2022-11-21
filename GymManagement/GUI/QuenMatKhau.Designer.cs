@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(894, 522);
+            this.ClientSize = new System.Drawing.Size(894, 538);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -133,6 +133,7 @@
             this.Controls.Add(this.textBox_Email);
             this.Controls.Add(this.pictureBox1);
             this.Name = "QuenMatKhau";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "QuenMatKhau";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
