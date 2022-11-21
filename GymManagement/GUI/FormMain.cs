@@ -277,12 +277,18 @@ namespace GymManagement.GUI
 
         #endregion
 
-        private void button2_Click(object sender, EventArgs e)
+    
+
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            DangNhap dangNhap = new DangNhap();
-            dangNhap.ShowDialog();//hien thi man hinh Dang nhap
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn đăng xuất không?", "", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Information) == DialogResult.Yes) //Hien thi hop thong bao tuy chon 
+            {
+                this.Hide();
+                DangNhap dangNhap = new DangNhap();
+                dangNhap.ShowDialog();//hien thi man hinh Dang nhap
+                this.Close();
+            }
         }
     }
 }

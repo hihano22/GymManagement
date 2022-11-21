@@ -46,7 +46,6 @@
             this.dgvHoiVien = new System.Windows.Forms.DataGridView();
             this.txtSearchHoiVien = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button_DangXuat = new System.Windows.Forms.Button();
             this.cboGoiTapMain = new System.Windows.Forms.ComboBox();
             this.cboGioiTinhMain = new System.Windows.Forms.ComboBox();
             this.btnLuuHoiVien = new System.Windows.Forms.Button();
@@ -107,6 +106,7 @@
             this.txtTenTB = new System.Windows.Forms.TextBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -321,7 +321,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button_DangXuat);
             this.groupBox1.Controls.Add(this.cboGoiTapMain);
             this.groupBox1.Controls.Add(this.cboGioiTinhMain);
             this.groupBox1.Controls.Add(this.btnLuuHoiVien);
@@ -344,20 +343,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin hội viên";
-            // 
-            // button_DangXuat
-            // 
-            this.button_DangXuat.AutoSize = true;
-            this.button_DangXuat.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button_DangXuat.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.button_DangXuat.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button_DangXuat.Location = new System.Drawing.Point(174, 379);
-            this.button_DangXuat.Name = "button_DangXuat";
-            this.button_DangXuat.Size = new System.Drawing.Size(86, 30);
-            this.button_DangXuat.TabIndex = 7;
-            this.button_DangXuat.Text = "Đăng xuất";
-            this.button_DangXuat.UseVisualStyleBackColor = false;
-            this.button_DangXuat.Click += new System.EventHandler(this.button2_Click);
             // 
             // cboGoiTapMain
             // 
@@ -964,6 +949,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.groupBox7);
             this.tabPage4.Controls.Add(this.flowLayoutPanel1);
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
@@ -973,6 +959,19 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thông tin";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.AutoSize = true;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button1.Location = new System.Drawing.Point(8, 382);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(93, 31);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Đăng xuất";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox7
             // 
@@ -1149,6 +1148,7 @@
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
@@ -1251,7 +1251,7 @@
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
         private PictureBox pictureBox8;
-        private Button button_DangXuat;
         private ErrorProvider errorProvider1;
+        private Button button1;
     }
 }

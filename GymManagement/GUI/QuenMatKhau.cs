@@ -69,7 +69,7 @@ namespace GymManagement.GUI
                                         + modify.TaiKhoans(query)[0].MatKhau;
 
                     //Tuy chon dang nhap
-                    if (MessageBox.Show("Bạn có muốn đăng nhập ngay không?", "Thông báo", MessageBoxButtons.YesNo,
+                    if (MessageBox.Show("Bạn có muốn đăng nhập ngay không?", "", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Information) == DialogResult.Yes) //Hien thi hop thong bao tuy chon
                     {
                         //quay lai FormDangNhap

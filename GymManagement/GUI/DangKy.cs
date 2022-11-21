@@ -79,7 +79,7 @@ namespace GymManagement.GUI
                 modify.Command(query);
 
                 //Hien thi khi dang ky thanh cong
-                if (MessageBox.Show("Đã đăng ký thành công! Bạn có muốn đăng nhập ngay không?", "Thông báo", MessageBoxButtons.YesNo,
+                if (MessageBox.Show("Đã đăng ký thành công! Bạn có muốn đăng nhập ngay không?", "", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Information) == DialogResult.Yes) //Hien thi hop thong bao tuy chon
                 {
                     //quay lai FormDangNhap
