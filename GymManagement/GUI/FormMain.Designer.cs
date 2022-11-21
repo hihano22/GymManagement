@@ -120,6 +120,8 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -146,6 +148,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -158,14 +162,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(884, 94);
+            this.panel1.Size = new System.Drawing.Size(894, 94);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Image = global::GymManagement.Properties.Resources.img2;
-            this.pictureBox2.Location = new System.Drawing.Point(744, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(755, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(136, 88);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -216,7 +220,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 94);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(884, 449);
+            this.tabControl1.Size = new System.Drawing.Size(894, 449);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -226,7 +230,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(876, 421);
+            this.tabPage1.Size = new System.Drawing.Size(886, 421);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Hội viên";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -243,7 +247,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(3, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(587, 415);
+            this.groupBox2.Size = new System.Drawing.Size(597, 415);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách hội viên";
@@ -251,7 +255,7 @@
             // btnGiaHan
             // 
             this.btnGiaHan.Enabled = false;
-            this.btnGiaHan.Location = new System.Drawing.Point(501, 293);
+            this.btnGiaHan.Location = new System.Drawing.Point(523, 296);
             this.btnGiaHan.Name = "btnGiaHan";
             this.btnGiaHan.Size = new System.Drawing.Size(68, 25);
             this.btnGiaHan.TabIndex = 5;
@@ -260,7 +264,7 @@
             // 
             // btnXoaHoiVien
             // 
-            this.btnXoaHoiVien.Location = new System.Drawing.Point(501, 235);
+            this.btnXoaHoiVien.Location = new System.Drawing.Point(523, 238);
             this.btnXoaHoiVien.Name = "btnXoaHoiVien";
             this.btnXoaHoiVien.Size = new System.Drawing.Size(68, 25);
             this.btnXoaHoiVien.TabIndex = 4;
@@ -270,7 +274,7 @@
             // 
             // btnSuaHoiVien
             // 
-            this.btnSuaHoiVien.Location = new System.Drawing.Point(501, 177);
+            this.btnSuaHoiVien.Location = new System.Drawing.Point(523, 180);
             this.btnSuaHoiVien.Name = "btnSuaHoiVien";
             this.btnSuaHoiVien.Size = new System.Drawing.Size(68, 25);
             this.btnSuaHoiVien.TabIndex = 3;
@@ -280,7 +284,7 @@
             // 
             // btnThemHoiVien
             // 
-            this.btnThemHoiVien.Location = new System.Drawing.Point(501, 119);
+            this.btnThemHoiVien.Location = new System.Drawing.Point(523, 122);
             this.btnThemHoiVien.Name = "btnThemHoiVien";
             this.btnThemHoiVien.Size = new System.Drawing.Size(68, 25);
             this.btnThemHoiVien.TabIndex = 2;
@@ -305,7 +309,7 @@
             this.dgvHoiVien.Name = "dgvHoiVien";
             this.dgvHoiVien.RowTemplate.Height = 25;
             this.dgvHoiVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvHoiVien.Size = new System.Drawing.Size(477, 303);
+            this.dgvHoiVien.Size = new System.Drawing.Size(514, 330);
             this.dgvHoiVien.TabIndex = 1;
             this.dgvHoiVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoiVien_CellClick);
             // 
@@ -337,7 +341,7 @@
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(590, 3);
+            this.groupBox1.Location = new System.Drawing.Point(600, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(283, 415);
             this.groupBox1.TabIndex = 0;
@@ -368,9 +372,11 @@
             // 
             // btnLuuHoiVien
             // 
-            this.btnLuuHoiVien.Location = new System.Drawing.Point(174, 335);
+            this.btnLuuHoiVien.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLuuHoiVien.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnLuuHoiVien.Location = new System.Drawing.Point(102, 336);
             this.btnLuuHoiVien.Name = "btnLuuHoiVien";
-            this.btnLuuHoiVien.Size = new System.Drawing.Size(75, 23);
+            this.btnLuuHoiVien.Size = new System.Drawing.Size(147, 40);
             this.btnLuuHoiVien.TabIndex = 5;
             this.btnLuuHoiVien.Text = "Lưu";
             this.btnLuuHoiVien.UseVisualStyleBackColor = true;
@@ -489,7 +495,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(876, 421);
+            this.tabPage2.Size = new System.Drawing.Size(886, 421);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Sản phẩm";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -528,9 +534,9 @@
             // txtLoaiSp
             // 
             this.txtLoaiSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtLoaiSp.Location = new System.Drawing.Point(158, 79);
+            this.txtLoaiSp.Location = new System.Drawing.Point(111, 79);
             this.txtLoaiSp.Name = "txtLoaiSp";
-            this.txtLoaiSp.Size = new System.Drawing.Size(158, 23);
+            this.txtLoaiSp.Size = new System.Drawing.Size(229, 23);
             this.txtLoaiSp.TabIndex = 2;
             // 
             // label14
@@ -572,17 +578,17 @@
             // txtTT
             // 
             this.txtTT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTT.Location = new System.Drawing.Point(158, 165);
+            this.txtTT.Location = new System.Drawing.Point(111, 165);
             this.txtTT.Name = "txtTT";
-            this.txtTT.Size = new System.Drawing.Size(158, 23);
+            this.txtTT.Size = new System.Drawing.Size(229, 23);
             this.txtTT.TabIndex = 5;
             // 
             // txtHSX
             // 
             this.txtHSX.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtHSX.Location = new System.Drawing.Point(158, 137);
+            this.txtHSX.Location = new System.Drawing.Point(111, 137);
             this.txtHSX.Name = "txtHSX";
-            this.txtHSX.Size = new System.Drawing.Size(158, 23);
+            this.txtHSX.Size = new System.Drawing.Size(229, 23);
             this.txtHSX.TabIndex = 4;
             // 
             // label10
@@ -597,9 +603,9 @@
             // txtSoLuongSp
             // 
             this.txtSoLuongSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSoLuongSp.Location = new System.Drawing.Point(158, 108);
+            this.txtSoLuongSp.Location = new System.Drawing.Point(111, 108);
             this.txtSoLuongSp.Name = "txtSoLuongSp";
-            this.txtSoLuongSp.Size = new System.Drawing.Size(158, 23);
+            this.txtSoLuongSp.Size = new System.Drawing.Size(229, 23);
             this.txtSoLuongSp.TabIndex = 3;
             this.txtSoLuongSp.TextChanged += new System.EventHandler(this.txtSoLuongSp_TextChanged);
             // 
@@ -616,17 +622,17 @@
             // 
             this.txtMaSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMaSp.Enabled = false;
-            this.txtMaSp.Location = new System.Drawing.Point(158, 22);
+            this.txtMaSp.Location = new System.Drawing.Point(111, 22);
             this.txtMaSp.Name = "txtMaSp";
-            this.txtMaSp.Size = new System.Drawing.Size(158, 23);
+            this.txtMaSp.Size = new System.Drawing.Size(229, 23);
             this.txtMaSp.TabIndex = 0;
             // 
             // txtTenSp
             // 
             this.txtTenSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTenSp.Location = new System.Drawing.Point(158, 50);
+            this.txtTenSp.Location = new System.Drawing.Point(111, 50);
             this.txtTenSp.Name = "txtTenSp";
-            this.txtTenSp.Size = new System.Drawing.Size(158, 23);
+            this.txtTenSp.Size = new System.Drawing.Size(229, 23);
             this.txtTenSp.TabIndex = 1;
             // 
             // btnSearchSp
@@ -650,7 +656,7 @@
             this.dgvSP.Name = "dgvSP";
             this.dgvSP.RowHeadersWidth = 51;
             this.dgvSP.RowTemplate.Height = 29;
-            this.dgvSP.Size = new System.Drawing.Size(870, 167);
+            this.dgvSP.Size = new System.Drawing.Size(880, 167);
             this.dgvSP.TabIndex = 31;
             this.dgvSP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSP_CellClick);
             // 
@@ -729,7 +735,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(876, 421);
+            this.tabPage3.Size = new System.Drawing.Size(886, 421);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Thiết bị";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -742,7 +748,7 @@
             this.dgvTB.Name = "dgvTB";
             this.dgvTB.RowHeadersWidth = 51;
             this.dgvTB.RowTemplate.Height = 29;
-            this.dgvTB.Size = new System.Drawing.Size(870, 167);
+            this.dgvTB.Size = new System.Drawing.Size(880, 167);
             this.dgvTB.TabIndex = 39;
             this.dgvTB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTB_CellClick);
             // 
@@ -836,9 +842,9 @@
             // txtLoaiTB
             // 
             this.txtLoaiTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtLoaiTB.Location = new System.Drawing.Point(158, 79);
+            this.txtLoaiTB.Location = new System.Drawing.Point(112, 79);
             this.txtLoaiTB.Name = "txtLoaiTB";
-            this.txtLoaiTB.Size = new System.Drawing.Size(158, 23);
+            this.txtLoaiTB.Size = new System.Drawing.Size(222, 23);
             this.txtLoaiTB.TabIndex = 2;
             // 
             // label15
@@ -880,17 +886,17 @@
             // txtTTTB
             // 
             this.txtTTTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTTTB.Location = new System.Drawing.Point(158, 165);
+            this.txtTTTB.Location = new System.Drawing.Point(112, 165);
             this.txtTTTB.Name = "txtTTTB";
-            this.txtTTTB.Size = new System.Drawing.Size(158, 23);
+            this.txtTTTB.Size = new System.Drawing.Size(222, 23);
             this.txtTTTB.TabIndex = 5;
             // 
             // txtHsxTb
             // 
             this.txtHsxTb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtHsxTb.Location = new System.Drawing.Point(158, 137);
+            this.txtHsxTb.Location = new System.Drawing.Point(112, 137);
             this.txtHsxTb.Name = "txtHsxTb";
-            this.txtHsxTb.Size = new System.Drawing.Size(158, 23);
+            this.txtHsxTb.Size = new System.Drawing.Size(222, 23);
             this.txtHsxTb.TabIndex = 4;
             // 
             // label19
@@ -905,9 +911,9 @@
             // txtSluongTB
             // 
             this.txtSluongTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSluongTB.Location = new System.Drawing.Point(158, 108);
+            this.txtSluongTB.Location = new System.Drawing.Point(112, 108);
             this.txtSluongTB.Name = "txtSluongTB";
-            this.txtSluongTB.Size = new System.Drawing.Size(158, 23);
+            this.txtSluongTB.Size = new System.Drawing.Size(222, 23);
             this.txtSluongTB.TabIndex = 3;
             this.txtSluongTB.TextChanged += new System.EventHandler(this.txtSluongTB_TextChanged);
             // 
@@ -924,17 +930,17 @@
             // 
             this.txtMaTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMaTB.Enabled = false;
-            this.txtMaTB.Location = new System.Drawing.Point(158, 22);
+            this.txtMaTB.Location = new System.Drawing.Point(112, 22);
             this.txtMaTB.Name = "txtMaTB";
-            this.txtMaTB.Size = new System.Drawing.Size(158, 23);
+            this.txtMaTB.Size = new System.Drawing.Size(222, 23);
             this.txtMaTB.TabIndex = 0;
             // 
             // txtTenTB
             // 
             this.txtTenTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTenTB.Location = new System.Drawing.Point(158, 50);
+            this.txtTenTB.Location = new System.Drawing.Point(112, 50);
             this.txtTenTB.Name = "txtTenTB";
-            this.txtTenTB.Size = new System.Drawing.Size(158, 23);
+            this.txtTenTB.Size = new System.Drawing.Size(222, 23);
             this.txtTenTB.TabIndex = 1;
             // 
             // pictureBox5
@@ -949,13 +955,15 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.pictureBox10);
+            this.tabPage4.Controls.Add(this.pictureBox9);
             this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.groupBox7);
             this.tabPage4.Controls.Add(this.flowLayoutPanel1);
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(876, 421);
+            this.tabPage4.Size = new System.Drawing.Size(886, 421);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thông tin";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1109,11 +1117,31 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(8, 15);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(215, 164);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(671, 15);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(215, 164);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 4;
+            this.pictureBox10.TabStop = false;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 543);
+            this.ClientSize = new System.Drawing.Size(894, 543);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -1156,6 +1184,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1253,5 +1283,7 @@
         private PictureBox pictureBox8;
         private ErrorProvider errorProvider1;
         private Button button1;
+        private PictureBox pictureBox10;
+        private PictureBox pictureBox9;
     }
 }

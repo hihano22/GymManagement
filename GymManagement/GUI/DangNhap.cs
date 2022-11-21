@@ -34,7 +34,7 @@ namespace GymManagement.GUI
                 string query = "Select * from TaiKhoan where TenTaiKhoan = '" + tentk + "' and MatKhau = '" + matkhau + "'";
                 if (modify.TaiKhoans(query).Count != 0)
                 {
-                    MessageBox.Show("Đăng nhập thành công!"/*, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information*/);
+                    MessageBox.Show("Đăng nhập thành công!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     //Ẩn form Đăng nhập và chuyển sang FormMain
                     this.Hide();
