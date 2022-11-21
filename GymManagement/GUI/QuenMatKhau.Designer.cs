@@ -45,9 +45,9 @@
             this.label_KetQua.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label_KetQua.Location = new System.Drawing.Point(143, 430);
             this.label_KetQua.Name = "label_KetQua";
-            this.label_KetQua.Size = new System.Drawing.Size(78, 20);
+            this.label_KetQua.Size = new System.Drawing.Size(65, 20);
             this.label_KetQua.TabIndex = 10;
-            this.label_KetQua.Text = "Mật khẩu:";
+            this.label_KetQua.Text = "Kết quả:";
             this.label_KetQua.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1

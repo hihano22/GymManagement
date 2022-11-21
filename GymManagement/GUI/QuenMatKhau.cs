@@ -63,7 +63,10 @@ namespace GymManagement.GUI
                 if (modify.TaiKhoans(query).Count != 0)
                 {
                     label_KetQua.ForeColor = Color.Green;
-                    label_KetQua.Text = "Mật khẩu: " + modify.TaiKhoans(query)[0].MatKhau;
+                    label_KetQua.Text = "Tài khoản: "
+                                        + modify.TaiKhoans(query)[0].TenTaiKhoan
+                                        + "Mật khẩu: "
+                                        + modify.TaiKhoans(query)[0].MatKhau;
 
                     //Tuy chon dang nhap
                     if (MessageBox.Show("Bạn có muốn đăng nhập ngay không?", "Thông báo", MessageBoxButtons.YesNo,
