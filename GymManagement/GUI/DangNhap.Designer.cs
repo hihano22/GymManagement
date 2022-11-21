@@ -84,6 +84,7 @@
             // 
             this.textBox_MatKhau.Location = new System.Drawing.Point(224, 340);
             this.textBox_MatKhau.Name = "textBox_MatKhau";
+            this.textBox_MatKhau.PasswordChar = '*';
             this.textBox_MatKhau.Size = new System.Drawing.Size(504, 23);
             this.textBox_MatKhau.TabIndex = 4;
             // 

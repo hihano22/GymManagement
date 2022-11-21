@@ -76,6 +76,7 @@
             // 
             this.textBox_MatKhau.Location = new System.Drawing.Point(315, 357);
             this.textBox_MatKhau.Name = "textBox_MatKhau";
+            this.textBox_MatKhau.PasswordChar = '*';
             this.textBox_MatKhau.Size = new System.Drawing.Size(412, 23);
             this.textBox_MatKhau.TabIndex = 5;
             // 
@@ -93,6 +94,7 @@
             // 
             this.textBox_XNMatKhau.Location = new System.Drawing.Point(315, 409);
             this.textBox_XNMatKhau.Name = "textBox_XNMatKhau";
+            this.textBox_XNMatKhau.PasswordChar = '*';
             this.textBox_XNMatKhau.Size = new System.Drawing.Size(412, 23);
             this.textBox_XNMatKhau.TabIndex = 7;
             // 
