@@ -1,5 +1,4 @@
 ﻿/***Database name = gym1 ***/
-
 CREATE TABLE [dbo].[TaiKhoan] (
 [TenTaiKhoan] NCHAR (24) NOT NULL,
 [MatKhau]     NCHAR (24) NOT NULL,
