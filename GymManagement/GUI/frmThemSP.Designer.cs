@@ -81,7 +81,7 @@
             this.groupBox1.Size = new System.Drawing.Size(360, 497);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thêm mới hội viên";
+            this.groupBox1.Text = "Thêm mới sản phẩm";
             // 
             // btnXoaHetSp
             // 
@@ -262,7 +262,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmThemSP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmThemSP";
+            this.Text = "Thêm sản phẩm";
             this.Load += new System.EventHandler(this.frmThemSP_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

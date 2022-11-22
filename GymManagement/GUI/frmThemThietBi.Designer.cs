@@ -262,7 +262,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmThemThietBi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmThemThietBi";
+            this.Text = "Thêm thiết bị";
             this.Load += new System.EventHandler(this.frmThemThietBi_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

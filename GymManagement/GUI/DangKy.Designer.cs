@@ -186,7 +186,7 @@
             this.MaximizeBox = false;
             this.Name = "DangKy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "DangKy";
+            this.Text = "Đăng ký";
             this.Load += new System.EventHandler(this.DangKy_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

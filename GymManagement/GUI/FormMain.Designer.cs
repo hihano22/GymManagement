@@ -534,9 +534,9 @@
             // txtLoaiSp
             // 
             this.txtLoaiSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtLoaiSp.Location = new System.Drawing.Point(111, 79);
+            this.txtLoaiSp.Location = new System.Drawing.Point(115, 81);
             this.txtLoaiSp.Name = "txtLoaiSp";
-            this.txtLoaiSp.Size = new System.Drawing.Size(229, 23);
+            this.txtLoaiSp.Size = new System.Drawing.Size(194, 23);
             this.txtLoaiSp.TabIndex = 2;
             // 
             // label14
@@ -578,17 +578,17 @@
             // txtTT
             // 
             this.txtTT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTT.Location = new System.Drawing.Point(111, 165);
+            this.txtTT.Location = new System.Drawing.Point(115, 167);
             this.txtTT.Name = "txtTT";
-            this.txtTT.Size = new System.Drawing.Size(229, 23);
+            this.txtTT.Size = new System.Drawing.Size(194, 23);
             this.txtTT.TabIndex = 5;
             // 
             // txtHSX
             // 
             this.txtHSX.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtHSX.Location = new System.Drawing.Point(111, 137);
+            this.txtHSX.Location = new System.Drawing.Point(115, 139);
             this.txtHSX.Name = "txtHSX";
-            this.txtHSX.Size = new System.Drawing.Size(229, 23);
+            this.txtHSX.Size = new System.Drawing.Size(194, 23);
             this.txtHSX.TabIndex = 4;
             // 
             // label10
@@ -603,9 +603,9 @@
             // txtSoLuongSp
             // 
             this.txtSoLuongSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSoLuongSp.Location = new System.Drawing.Point(111, 108);
+            this.txtSoLuongSp.Location = new System.Drawing.Point(115, 110);
             this.txtSoLuongSp.Name = "txtSoLuongSp";
-            this.txtSoLuongSp.Size = new System.Drawing.Size(229, 23);
+            this.txtSoLuongSp.Size = new System.Drawing.Size(194, 23);
             this.txtSoLuongSp.TabIndex = 3;
             this.txtSoLuongSp.TextChanged += new System.EventHandler(this.txtSoLuongSp_TextChanged);
             // 
@@ -622,17 +622,17 @@
             // 
             this.txtMaSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMaSp.Enabled = false;
-            this.txtMaSp.Location = new System.Drawing.Point(111, 22);
+            this.txtMaSp.Location = new System.Drawing.Point(115, 24);
             this.txtMaSp.Name = "txtMaSp";
-            this.txtMaSp.Size = new System.Drawing.Size(229, 23);
+            this.txtMaSp.Size = new System.Drawing.Size(194, 23);
             this.txtMaSp.TabIndex = 0;
             // 
             // txtTenSp
             // 
             this.txtTenSp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTenSp.Location = new System.Drawing.Point(111, 50);
+            this.txtTenSp.Location = new System.Drawing.Point(115, 52);
             this.txtTenSp.Name = "txtTenSp";
-            this.txtTenSp.Size = new System.Drawing.Size(229, 23);
+            this.txtTenSp.Size = new System.Drawing.Size(194, 23);
             this.txtTenSp.TabIndex = 1;
             // 
             // btnSearchSp
@@ -844,7 +844,7 @@
             this.txtLoaiTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtLoaiTB.Location = new System.Drawing.Point(112, 79);
             this.txtLoaiTB.Name = "txtLoaiTB";
-            this.txtLoaiTB.Size = new System.Drawing.Size(222, 23);
+            this.txtLoaiTB.Size = new System.Drawing.Size(195, 23);
             this.txtLoaiTB.TabIndex = 2;
             // 
             // label15
@@ -888,7 +888,7 @@
             this.txtTTTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTTTB.Location = new System.Drawing.Point(112, 165);
             this.txtTTTB.Name = "txtTTTB";
-            this.txtTTTB.Size = new System.Drawing.Size(222, 23);
+            this.txtTTTB.Size = new System.Drawing.Size(195, 23);
             this.txtTTTB.TabIndex = 5;
             // 
             // txtHsxTb
@@ -896,7 +896,7 @@
             this.txtHsxTb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHsxTb.Location = new System.Drawing.Point(112, 137);
             this.txtHsxTb.Name = "txtHsxTb";
-            this.txtHsxTb.Size = new System.Drawing.Size(222, 23);
+            this.txtHsxTb.Size = new System.Drawing.Size(195, 23);
             this.txtHsxTb.TabIndex = 4;
             // 
             // label19
@@ -913,7 +913,7 @@
             this.txtSluongTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSluongTB.Location = new System.Drawing.Point(112, 108);
             this.txtSluongTB.Name = "txtSluongTB";
-            this.txtSluongTB.Size = new System.Drawing.Size(222, 23);
+            this.txtSluongTB.Size = new System.Drawing.Size(195, 23);
             this.txtSluongTB.TabIndex = 3;
             this.txtSluongTB.TextChanged += new System.EventHandler(this.txtSluongTB_TextChanged);
             // 
@@ -932,7 +932,7 @@
             this.txtMaTB.Enabled = false;
             this.txtMaTB.Location = new System.Drawing.Point(112, 22);
             this.txtMaTB.Name = "txtMaTB";
-            this.txtMaTB.Size = new System.Drawing.Size(222, 23);
+            this.txtMaTB.Size = new System.Drawing.Size(195, 23);
             this.txtMaTB.TabIndex = 0;
             // 
             // txtTenTB
@@ -940,7 +940,7 @@
             this.txtTenTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTenTB.Location = new System.Drawing.Point(112, 50);
             this.txtTenTB.Name = "txtTenTB";
-            this.txtTenTB.Size = new System.Drawing.Size(222, 23);
+            this.txtTenTB.Size = new System.Drawing.Size(195, 23);
             this.txtTenTB.TabIndex = 1;
             // 
             // pictureBox5
@@ -1144,7 +1144,7 @@
             this.ClientSize = new System.Drawing.Size(894, 543);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý phòng GYM";
